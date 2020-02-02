@@ -4,11 +4,11 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/p9c/learngio/pkg/framework/command"
-	"github.com/p9c/learngio/pkg/framework/font"
-	"github.com/p9c/learngio/pkg/framework/label"
-	"github.com/p9c/learngio/pkg/framework/rect"
-	nstyle "github.com/p9c/learngio/pkg/framework/style"
+	"github.com/gop9/olt/framework/command"
+	"github.com/gop9/olt/framework/font"
+	"github.com/gop9/olt/framework/label"
+	"github.com/gop9/olt/framework/rect"
+	nstyle "github.com/gop9/olt/framework/style"
 )
 
 func drawSymbol(out *command.Buffer, type_ label.SymbolType, content rect.Rect, background color.RGBA, foreground color.RGBA, border_width int, font font.Face) {

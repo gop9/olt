@@ -3,7 +3,7 @@ package richtext
 import (
 	"unsafe"
 
-	"github.com/p9c/learngio/pkg/framework/font"
+	"github.com/gop9/olt/framework/font"
 
 	ifont "golang.org/x/image/font"
 

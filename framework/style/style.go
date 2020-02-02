@@ -4,9 +4,9 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/p9c/learngio/pkg/framework/command"
-	"github.com/p9c/learngio/pkg/framework/font"
-	"github.com/p9c/learngio/pkg/framework/label"
+	"github.com/gop9/olt/framework/command"
+	"github.com/gop9/olt/framework/font"
+	"github.com/gop9/olt/framework/label"
 )
 
 type WidgetStates int
@@ -446,7 +446,7 @@ func FromTable(table ColorTable, scaling float64) *Style {
 	button.TouchPadding = image.Point{0.0, 0.0}
 	button.Border = 1
 	button.SymbolBorderWidth = 1
-	button.Rounding = 4
+	button.Rounding = 1
 	button.DrawBegin = nil
 	button.DrawEnd = nil
 
@@ -893,14 +893,14 @@ func FromTable(table ColorTable, scaling float64) *Style {
 	win.FixedBackground = MakeItemColor(table.ColorWindow)
 	win.BorderColor = table.ColorBorder
 	win.Scaler = MakeItemColor(table.ColorText)
-	win.FooterPadding = image.Point{0, 0}
+	win.FooterPadding = image.Point{100, 100}
 	win.Rounding = 0.0
 	win.ScalerSize = image.Point{9, 9}
-	win.Padding = image.Point{4, 4}
-	win.Spacing = image.Point{4, 4}
+	win.Padding = image.Point{0, 0}
+	win.Spacing = image.Point{0, 0}
 	win.ScrollbarSize = image.Point{10, 10}
 	win.MinSize = image.Point{64, 64}
-	win.Border = 2.0
+	win.Border = 0
 
 	style.MenuWindow = style.NormalWindow
 	style.TooltipWindow = style.NormalWindow

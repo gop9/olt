@@ -11,9 +11,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/p9c/learngio/pkg/framework/command"
-	"github.com/p9c/learngio/pkg/framework/rect"
-	nstyle "github.com/p9c/learngio/pkg/framework/style"
+	"github.com/gop9/olt/framework/command"
+	"github.com/gop9/olt/framework/rect"
+	nstyle "github.com/gop9/olt/framework/style"
 )
 
 type MasterWindow interface {

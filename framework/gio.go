@@ -27,11 +27,11 @@ import (
 	"github.com/gop9/olt/gio/text"
 	"github.com/gop9/olt/gio/unit"
 
-	"github.com/p9c/learngio/pkg/framework/clipboard"
-	"github.com/p9c/learngio/pkg/framework/command"
-	"github.com/p9c/learngio/pkg/framework/font"
-	"github.com/p9c/learngio/pkg/framework/label"
-	"github.com/p9c/learngio/pkg/framework/rect"
+	"github.com/gop9/olt/framework/clipboard"
+	"github.com/gop9/olt/framework/command"
+	"github.com/gop9/olt/framework/font"
+	"github.com/gop9/olt/framework/label"
+	"github.com/gop9/olt/framework/rect"
 
 	ifont "golang.org/x/image/font"
 	"golang.org/x/image/math/fixed"

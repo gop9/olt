@@ -5,12 +5,12 @@ import (
 	"time"
 	"unicode/utf8"
 
+	"github.com/gop9/olt/framework"
+	"github.com/gop9/olt/framework/clipboard"
+	"github.com/gop9/olt/framework/label"
+	"github.com/gop9/olt/framework/rect"
 	gkey "github.com/gop9/olt/gio/io/key"
 	"github.com/gop9/olt/gio/io/pointer"
-	"github.com/p9c/learngio/pkg/framework"
-	"github.com/p9c/learngio/pkg/framework/clipboard"
-	"github.com/p9c/learngio/pkg/framework/label"
-	"github.com/p9c/learngio/pkg/framework/rect"
 
 	"golang.org/x/image/math/fixed"
 )

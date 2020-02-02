@@ -5,7 +5,7 @@ import (
 	"github.com/gop9/olt/gio/io/pointer"
 	"image"
 
-	"github.com/p9c/learngio/pkg/framework/rect"
+	"github.com/gop9/olt/framework/rect"
 )
 
 type mouseButton struct {

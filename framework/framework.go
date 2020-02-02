@@ -8,13 +8,13 @@ import (
 	"strconv"
 	"sync/atomic"
 
+	"github.com/gop9/olt/framework/command"
+	"github.com/gop9/olt/framework/font"
+	"github.com/gop9/olt/framework/label"
+	"github.com/gop9/olt/framework/rect"
+	nstyle "github.com/gop9/olt/framework/style"
 	gkey "github.com/gop9/olt/gio/io/key"
 	"github.com/gop9/olt/gio/io/pointer"
-	"github.com/p9c/learngio/pkg/framework/command"
-	"github.com/p9c/learngio/pkg/framework/font"
-	"github.com/p9c/learngio/pkg/framework/label"
-	"github.com/p9c/learngio/pkg/framework/rect"
-	nstyle "github.com/p9c/learngio/pkg/framework/style"
 )
 
 ///////////////////////////////////////////////////////////////////////////////////

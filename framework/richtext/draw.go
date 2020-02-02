@@ -6,11 +6,11 @@ import (
 	"image/color"
 	"unicode/utf8"
 
-	"github.com/p9c/learngio/pkg/framework"
-	"github.com/p9c/learngio/pkg/framework/command"
-	"github.com/p9c/learngio/pkg/framework/font"
-	"github.com/p9c/learngio/pkg/framework/rect"
-	nstyle "github.com/p9c/learngio/pkg/framework/style"
+	"github.com/gop9/olt/framework"
+	"github.com/gop9/olt/framework/command"
+	"github.com/gop9/olt/framework/font"
+	"github.com/gop9/olt/framework/rect"
+	nstyle "github.com/gop9/olt/framework/style"
 	"golang.org/x/image/math/fixed"
 )
 

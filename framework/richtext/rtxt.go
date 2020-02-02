@@ -11,8 +11,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/p9c/learngio/pkg/framework"
-	"github.com/p9c/learngio/pkg/framework/font"
+	"github.com/gop9/olt/framework"
+	"github.com/gop9/olt/framework/font"
 	"golang.org/x/image/math/fixed"
 )
 

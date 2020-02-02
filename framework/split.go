@@ -1,9 +1,9 @@
 package framework
 
 import (
+	"github.com/gop9/olt/framework/rect"
+	nstyle "github.com/gop9/olt/framework/style"
 	"github.com/gop9/olt/gio/io/pointer"
-	"github.com/p9c/learngio/pkg/framework/rect"
-	nstyle "github.com/p9c/learngio/pkg/framework/style"
 )
 
 type ScalableSplit struct {

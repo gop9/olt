@@ -1,12 +1,12 @@
 package framework
 
 import (
+	"github.com/gop9/olt/framework/font"
+	nstyle "github.com/gop9/olt/framework/style"
 	"github.com/gop9/olt/gio/io/pointer"
-	"github.com/p9c/learngio/pkg/framework/font"
-	nstyle "github.com/p9c/learngio/pkg/framework/style"
 	"image"
 
-	"github.com/p9c/learngio/pkg/framework/rect"
+	"github.com/gop9/olt/framework/rect"
 )
 
 type Heading int

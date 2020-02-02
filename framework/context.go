@@ -10,9 +10,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/p9c/learngio/pkg/framework/command"
-	"github.com/p9c/learngio/pkg/framework/rect"
-	nstyle "github.com/p9c/learngio/pkg/framework/style"
+	"github.com/gop9/olt/framework/command"
+	"github.com/gop9/olt/framework/rect"
+	"github.com/gop9/olt/framework/style"
 )
 
 const perfUpdate = false
@@ -23,7 +23,7 @@ var UnknownCommandErr = errors.New("unknown command")
 type context struct {
 	mw             MasterWindow
 	Input          Input
-	Style          nstyle.Style
+	Style          style.Style
 	Windows        []*Window
 	DockedWindows  dockedTree
 	changed        int32

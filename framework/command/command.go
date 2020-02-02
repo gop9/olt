@@ -4,8 +4,8 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/p9c/learngio/pkg/framework/font"
-	"github.com/p9c/learngio/pkg/framework/rect"
+	"github.com/gop9/olt/framework/font"
+	"github.com/gop9/olt/framework/rect"
 )
 
 // CommandBuffer is a list of drawing directives.
